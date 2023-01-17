@@ -10,9 +10,15 @@ Verify basic search functionality for eBay
     [Tags]    Functional
 
     open browser    https://www.ebay.com/  chrome
-    input text   //*[@id="gh-ac"]  mobile
-    press keys    //*[@id="gh-btn"]  [return]
+    MAXIMIZE BROWSER WINDOW
+
+    input text   xpath://*[@id="gh-ac"]  mobile
+    press keys    xpath://*[@id="gh-btn"]  RETURN
+    # press keys    id:gh-btn RETURN
+    # press keys    name:this-in-name RETURN
+    # press keys    css:#gh-btn RETURN
     page should contain    results for mobile
+
     close browser
 
 *** Keywords ***
