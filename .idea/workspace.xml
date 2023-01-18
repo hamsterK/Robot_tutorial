@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="add ebay search test">
+      <change afterPath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/eBay_UserDefinedKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/geckodriver-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/selenium-screenshot-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/eBay/BasicSearch.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/eBay/BasicSearch.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -66,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673974227197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ebay search test">
+      <created>1673975986940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673975986940</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add ebay search test">
+      <created>1673976006892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673976006892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,8 +95,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Robot_tutorial" />
+    </ignored-roots>
     <MESSAGE value="First simple robot script" />
     <MESSAGE value="delete empty file" />
+    <MESSAGE value="Use different locators" />
     <MESSAGE value="add ebay search test" />
     <option name="LAST_COMMIT_MESSAGE" value="add ebay search test" />
   </component>
