@@ -2,14 +2,13 @@
 Library    SeleniumLibrary
 
 *** Variables ***
+&{search_text}  abc=books   bcd=travel
 #${search_text}  books
-
-# Below is list of variables
-@{search_text}  books  travel  gifts  robots
+# @{search_text}  books  travel  gifts  robots
 # ${GLOBAL_VARIABLE} - upper case for local v
 *** Keywords ***
 Input search text and click search
-    input text   xpath://*[@id="gh-ac"]  ${search_text[1]}
+    input text    xpath://*[@id="gh-ac"]  ${search_text.abc}
     press keys    xpath://*[@id="gh-btn"]  RETURN
 
 Click on advanced search link

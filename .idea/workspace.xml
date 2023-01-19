@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="add variable">
+    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="update var usage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" afterDir="false" />
     </list>
@@ -21,6 +22,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="2KPxBaSsNFRJoMJwcRK3ussnxfi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674127988962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update var usage">
+      <created>1674131035478</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674131035478</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +144,7 @@
     <MESSAGE value="Use resources folder" />
     <MESSAGE value="Update with DOM (add HeaderPage)" />
     <MESSAGE value="add variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add variable" />
+    <MESSAGE value="update var usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update var usage" />
   </component>
 </project>

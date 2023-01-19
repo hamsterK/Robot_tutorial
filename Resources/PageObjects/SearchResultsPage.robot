@@ -6,7 +6,7 @@ Resource    ./HeaderPage.robot
 ${search_result}   results for
 *** Keywords ***
 Verify search results
-    page should contain    ${search_result} ${search_text[1]}
+    page should contain    ${search_result} ${search_text.abc}
 
 Select product condition
 
