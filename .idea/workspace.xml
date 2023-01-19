@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="add ebay search test">
-      <change afterPath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/eBay_UserDefinedKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="Use resources folder">
+      <change afterPath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObjects/LandingPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObjects/ProductDetailsPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/eBay/BasicSearch.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/eBay/BasicSearch.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/eBay/BasicSearch.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/eBay/Verify_search_functionality.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673976006892</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Use resources folder">
+      <created>1674061353988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674061353988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +111,7 @@
     <MESSAGE value="delete empty file" />
     <MESSAGE value="Use different locators" />
     <MESSAGE value="add ebay search test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ebay search test" />
+    <MESSAGE value="Use resources folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use resources folder" />
   </component>
 </project>
