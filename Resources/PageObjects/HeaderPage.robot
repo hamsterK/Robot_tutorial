@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-&{search_text}  abc=books   bcd=travel
+#&{search_text}  abc=books   bcd=travel
 #${search_text}  books
 # @{search_text}  books  travel  gifts  robots
 # ${GLOBAL_VARIABLE} - upper case for local v

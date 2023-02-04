@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="update var usage">
+    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="new values in variables">
+      <change afterPath="$PROJECT_DIR$/Tests/Travels/VeriableScope.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674131035478</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new values in variables">
+      <created>1674147662593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147662593</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +152,7 @@
     <MESSAGE value="Update with DOM (add HeaderPage)" />
     <MESSAGE value="add variable" />
     <MESSAGE value="update var usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="update var usage" />
+    <MESSAGE value="new values in variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="new values in variables" />
   </component>
 </project>
