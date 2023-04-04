@@ -15,8 +15,9 @@ Verify basic search functionality
     [Documentation]    This test case verifies the basic search
     [Tags]    Functional
 
-    HeaderPage.Input search text and click search
-    SearchResultsPage.Verify search results
+    HeaderPage.Input search text and click search   robot
+    SearchResultsPage.Verify search results    robot
+
 
 Verify advanced search functionality
     [Documentation]     This test case verifies the advanced search
