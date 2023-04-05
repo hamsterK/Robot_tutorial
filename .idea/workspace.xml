@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="new values in variables">
-      <change afterPath="$PROJECT_DIR$/Resources/Webelements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ArgumentsDemo.robot" afterDir="false" />
+    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="update files and pass several lessons">
+      <change afterPath="$PROJECT_DIR$/Tests/WebLocators.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/CommonFunctionality.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/HeaderPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects/SearchResultsPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Travels/VeriableScope.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/VeriableScope.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/eBay/Verify_search_functionality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/eBay/Verify_search_functionality.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675515953827</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update files and pass several lessons">
+      <created>1680637065758</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680637065759</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +218,7 @@
     <MESSAGE value="add variable" />
     <MESSAGE value="update var usage" />
     <MESSAGE value="new values in variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="new values in variables" />
+    <MESSAGE value="update files and pass several lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files and pass several lessons" />
   </component>
 </project>
