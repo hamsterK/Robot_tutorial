@@ -25,8 +25,16 @@ TC to demonstrate Weblocators in Robot FW
 # xpath://tagname[text()='ActualText']
 # xpath://tagname[@Attribute='Value' or @Attribute='Value']
 # xpath://tagname[Attribute='Value and @Attribute='Value']
+# xpath://tagname[@Attribute='Value']//parent::tagname - selects parent of the context (current) node
+# xpath://tagname[@Attribute='Value']//child::tagname - selects all children of the current node
+# xpath://tagname[@Attribute="Value']//self::tagname - selects the current node
 
-
+# xpath://tagname[@Attribute='Value']//descendant::tagname - selects all of the descendents
+# xpath://tagname[@Attribute='Value']//descendant-or-self::tagname - selects current node and all descendants
+# with the same tag
+# xpath://tagname[@Attribute='Value']//ancestor::tagname - selects all of the ancestors (parents)
+# xpath://tagname[@Attribute='Value']//ancestor-or-self::tagname - selects current node and all ancestors
+# with the same tag
 
 
 # robot -d results Tests/WebLocators.robot

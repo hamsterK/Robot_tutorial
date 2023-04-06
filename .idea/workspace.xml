@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="update files and pass several lessons">
-      <change afterPath="$PROJECT_DIR$/Tests/WebLocators.robot" afterDir="false" />
+    <list default="true" id="32389cd6-f0fa-4589-9a05-0da343a2ce69" name="Changes" comment="web locators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/WebLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/WebLocators.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680637065759</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="web locators">
+      <created>1680724532378</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680724532378</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +226,7 @@
     <MESSAGE value="update var usage" />
     <MESSAGE value="new values in variables" />
     <MESSAGE value="update files and pass several lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="update files and pass several lessons" />
+    <MESSAGE value="web locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="web locators" />
   </component>
 </project>
