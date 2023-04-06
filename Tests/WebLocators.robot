@@ -18,6 +18,8 @@ TC to demonstrate Weblocators in Robot FW
     Close Browser
 
 
+# robot -d results Tests/WebLocators.robot
+
 # // - relative xpath (short)
 # / - absolute xpath (full)
 # xpath://tagname[starts-with(@Attribute,'Value')] - useful if part of attribute is dynamic
@@ -35,6 +37,39 @@ TC to demonstrate Weblocators in Robot FW
 # xpath://tagname[@Attribute='Value']//ancestor::tagname - selects all of the ancestors (parents)
 # xpath://tagname[@Attribute='Value']//ancestor-or-self::tagname - selects current node and all ancestors
 # with the same tag
+# xpath://tagname[@Attribute='Value']//following::tagname - follows all nodes that appear after the context mode
+# xpath://tagname[@Attribute='Value']//following-sibling::tagname - follows all nodes that have the same parent as
+# the context node and appear after the context mode
+# xpath://tagname[@Attribute='Value']//preceding::tagname - selects all nodes that appear before the context node
+# xpath://tagname[@Attribute='Value']//preceding-sibling::tagname - followes all nodes that have the same parent as
+# the context node and appear before the context mode
 
 
-# robot -d results Tests/WebLocators.robot
+# css selectors
+# css:input#first_name
+# tagName[AttributeName='AttributeValue'] => input[id=first_name] => universal: type, placeholder, value, etc
+# tagName#elementID => input#first_name or input[name='userfirst_name]'] => select by id (#)
+# tagName.elementID => input.signup => class attribute => . dot
+# tagName.classValue[AttributeName='AttributeValue']tagName#idValue[AttributeName='AttributeValue']
+# input.signup[type='submit'][value='Sign me up'] input#submit_btn[type='submit'][value='Sign me up']
+# => mix of tag, id and classname
+# sub-string =>
+# '^' prefix of the text => input[name^='country_c']
+# '$' suffix of the text => input[name$='y_client']
+# '*' - substring of the text => input[name*='try_cl']
+# direct child (>) => select#country>option[value='AU']
+# child and subchild  ( ) => form#deorg_form div
+# next sibling (+) - second webelement follows immediately and both are child of the same parent
+# => option[value='Developer']+option
+# pseudo-class (first, last, nth) - specifies special state of selected element
+# first-child (1st element from group of siblings) => select#job_role>:first-child
+# last-child (last elementt from group of siblings) => select#job_role:last-child
+# nth-child() (based on position in group of siblings) => select#job_role:nth-child(4)
+# nth-last-child() (-/-, from end) => select#job_role:nth-last-child(4)
+# first-of-type - first of its type among group of siblings => form#deorg_form>input:first-of-type
+# last-of-type - last of its type among group of siblings => form#deorg_form>input:last-of-type
+# nth-of-type() - matches elements of given type based on position among group of siblings
+# => form#deorg_form>input:nth-of-type(4)
+
+
+
