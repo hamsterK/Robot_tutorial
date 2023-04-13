@@ -24,5 +24,21 @@ Finish test case
 
 # robot -d results -v env:uat Tests/eBay/Verify_search_functionality.robot
 
+
+# Open Browser    https://www.ebay.com/  Chrome
+# Open Browser    https://www.ebay.com/  Firefox  alias=RCV
+# Open Browser    about:blank
+# Open Browser    browser=Chrome
+
+#Close Browser
+#Close All Browsers
+#Get Browser Ids - returns index of all active browser as list
+#Maximize Browser Window
+#Get Browser Alias - returns aliases of all active browser that has an alias as NormalizedDict
+#Switch Browser - switch between active browsers using index_or_alias
+
+
+
+
 # with different browser and url:
 # robot -d results -v url:https://www.onliner.by/ -v browser:firefox Tests/eBay/Verify_search_functionality.robot
